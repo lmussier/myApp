@@ -15,6 +15,6 @@ set( SRCS
 
 add_executable(MyApp_test ${SRCS})
 
-target_link_libraries(MyApp_test ${GTEST_BOTH_LIBRARIES} ${CMAKE_THREAD_LIBS_INIT} myLibShared)
+target_link_libraries(MyApp_test ${GTEST_BOTH_LIBRARIES} myLibShared)
 
 add_test(MyApp_test MyApp_test)

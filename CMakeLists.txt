@@ -15,7 +15,7 @@ project(myApp VERSION 1.0.0 LANGUAGES CXX)
 enable_testing()
 
 #Set default install path
-set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../install_dir/")
+set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_LIST_DIR}/../install_dir/" CACHE PATH "Where to install myApp")
 
 #Set path to Dependencies 
 #Set path to Dependencies 
