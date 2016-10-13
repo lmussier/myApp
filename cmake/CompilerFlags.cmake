@@ -1,0 +1,5 @@
+set(CMAKE_CXX_FLAGS "-fmessage-length=0 -pipe -Wall -Wextra -Wconversion -Wsign-conversion -Werror -pedantic -std=c++11 -fPIC")
+set(CMAKE_CXX_FLAGS_DEBUG "-g -O0 -ftest-coverage -fprofile-arcs")
+set(CMAKE_CXX_FLAGS_RELEASE "-DNDEBUG -O3 -s")
+set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-DNDEBUG -g -O3")
+set(CMAKE_CXX_FLAGS_MINSIZEREL "-DNDEBUG -Os -s")
