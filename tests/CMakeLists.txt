@@ -2,7 +2,6 @@
 set(CMAKE_PREFIX_PATH ${GTEST_ROOT_DIR})
 
 find_package(GTest REQUIRED)
-find_package(Threads REQUIRED)
 
 #Use our public headers like anyone else 
 include_directories(${GTEST_INCLUDE_DIRS})
